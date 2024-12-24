@@ -19,6 +19,7 @@ class Xceed(ctk.CTk):
         self.work_done_entry = None
         self.title("Xceed")
         self.geometry("250x400")
+        self.resizable(False, False)
 
         self.total_work_var = ctk.DoubleVar(value=0)
         self.work_done_var = ctk.DoubleVar(value=0)
